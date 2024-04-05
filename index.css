@@ -1,6 +1,4 @@
-/* div{
-    border: 1px solid black;
-} */
+
 .buttons{
     margin-top: 30px;
     display: flex;
@@ -9,10 +7,7 @@
 .shn{
     display: flex;
 }
-#split{
-    display:flex;
-    flex-direction: column;
-}
+
 .container{
     font-size: 100px;
 }
@@ -21,22 +16,31 @@ button{
     border-radius: 50%;
     font-size: 25px;
 }
-/* #startstop{
-    background-color: lightblue;
-} */
 
-#spl{
-    background-color: white;
-}
-#split{
-    font-size: larger;
-}
-.button{
-   
-    display: flex;
-   
-}
+
+
 .buttons{
     display: flex;
     width: 50%;
+    position: relative;
+    right: 80px;
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    
+}
+.whole{
+    display: flex;
+    justify-content: space-around;
+}
+body{
+    background-color: rgb(105, 160, 216);
+}
+#startstop{
+    background-color: rgb(35, 135, 217);
+}
+button{
+    margin-right: 30px;
 }

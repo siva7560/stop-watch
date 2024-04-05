@@ -10,17 +10,21 @@
 </head>
 <body>
     <h1 style="text-align: center; ">STOP WATCH</h1>
+    <div class="whole">
+    <div class="contain">
     <div class="container col-10 d-flex">
         <div id="hours"></div>:
         <div id="minutes"></div>:
         <div id="seconds"></div>.
         <div id="milli"></div>
     </div>
-    <div class="button">
-        <div class="buttons">
-    <button id="startstop" onclick="startstop()">start</button>
-    <button id="spl" onclick="split()">split</button>
-    <button id="reset" onclick="reset()">reset</button>
+    
+        <div class="buttons container">
+    <button id="startstop" onclick="start()">Start</button>
+    <button id="stop" onclick="stop()">Pause</button>
+    <button id="reset" onclick="reset()">Reset</button>
+
+</div>
 </div>
 </div>
 <div id="split">
